@@ -24,15 +24,15 @@ public class Medal : MonoBehaviour
             img.sprite = metalMedal;
 
         }
-        else if (gameScore > 1 && gameScore <= 3)
+        else if (gameScore > 1 && gameScore <= 2)
         {
             img.sprite = bronzeMedal;
         }
-        else if (gameScore > 3 && gameScore <= 7)
+        else if (gameScore > 2 && gameScore <= 6)
         {
             img.sprite = silverMedal;
         }
-        else if (gameScore > 7)
+        else if (gameScore > 6)
         {
             img.sprite = goldMedal;
         }
